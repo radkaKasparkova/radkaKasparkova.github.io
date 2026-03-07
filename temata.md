@@ -17,12 +17,17 @@ Níže je několik typů problémů, které se v praxi objevují nejčastěji.
 
 Projekt řeší **řešení místo problému**.
 
+{% assign posts = site.tags["nejasny-problem"] %}
+{% if posts %}
 <ul>
-{% assign posts = site.tags["nejasny-problem"] | sort: "date" | reverse %}
+{% assign posts = posts | sort: "date" | reverse %}
 {% for post in posts %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<em>Zatím bez článků.</em>
+{% endif %}
 
 ---
 
@@ -31,12 +36,17 @@ Projekt řeší **řešení místo problému**.
 Lidé si myslí, že se shodli.  
 Ve skutečnosti si každý představuje něco jiného.
 
+{% assign posts = site.tags["falesna-shoda"] %}
+{% if posts %}
 <ul>
-{% assign posts = site.tags["falesna-shoda"] | sort: "date" | reverse %}
+{% assign posts = posts | sort: "date" | reverse %}
 {% for post in posts %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<em>Zatím bez článků.</em>
+{% endif %}
 
 ---
 
@@ -45,12 +55,17 @@ Ve skutečnosti si každý představuje něco jiného.
 Něco vypadá jako malá změna.  
 Ale systém je mnohem komplexnější.
 
+{% assign posts = site.tags["iluze-jednoduchosti"] %}
+{% if posts %}
 <ul>
-{% assign posts = site.tags["iluze-jednoduchosti"] | sort: "date" | reverse %}
+{% assign posts = posts | sort: "date" | reverse %}
 {% for post in posts %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<em>Zatím bez článků.</em>
+{% endif %}
 
 ---
 
@@ -58,12 +73,17 @@ Ale systém je mnohem komplexnější.
 
 Problémy vznikají v tom, **jak se zadání tvoří**.
 
+{% assign posts = site.tags["proces-zadani"] %}
+{% if posts %}
 <ul>
-{% assign posts = site.tags["proces-zadani"] | sort: "date" | reverse %}
+{% assign posts = posts | sort: "date" | reverse %}
 {% for post in posts %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<em>Zatím bez článků.</em>
+{% endif %}
 
 ---
 
@@ -71,9 +91,14 @@ Problémy vznikají v tom, **jak se zadání tvoří**.
 
 Projekt nemá jasné rozhodování.
 
+{% assign posts = site.tags["rozhodovaci-chaos"] %}
+{% if posts %}
 <ul>
-{% assign posts = site.tags["rozhodovaci-chaos"] | sort: "date" | reverse %}
+{% assign posts = posts | sort: "date" | reverse %}
 {% for post in posts %}
 <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<em>Zatím bez článků.</em>
+{% endif %}
