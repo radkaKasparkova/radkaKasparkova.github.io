@@ -1,5 +1,3 @@
-# Radka Kašpárková
-
 Pozoruju, jak vznikají problémy v IT projektech.
 
 Obvykle nezačínají v kódu.  
