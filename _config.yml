@@ -1,3 +1,6 @@
 title: Radka Kašpárková
 description: Pozorování z IT projektů
 theme: minima
+header_pages:
+  - o-mne.md
+  - jak-pracuji.md
