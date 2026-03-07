@@ -4,3 +4,4 @@ theme: minima
 header_pages:
   - o-mne.md
   - jak-pracuji.md
+  - temata.md
