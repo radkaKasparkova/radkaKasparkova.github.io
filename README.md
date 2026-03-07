@@ -7,20 +7,27 @@ Začínají v zadání.
 
 ---
 
-## O čem píšu
+## Co dělám
 
-V projektech se pořád opakují stejné věty:
+Pomáhám firmám vyjasnit zadání mezi byznysem a vývojem.
 
-- „To je jen malá změna.“
-- „Tohle je přece jasné.“
-- „My víme, co zákazník chce.“
-- „Zadání doladíme za běhu.“
+Když se projekt zasekne, často není problém v technologii —  
+ale v tom, že různí lidé řeší různé problémy.
 
-Tyhle texty jsou krátká pozorování z praxe.
+Moje práce je tyhle perspektivy poskládat do jednoho smysluplného celku.
+
+---
+
+## Stránky
+
+- [O mně](o-mne)
+- [Jak pracuji](jak-pracuji)
 
 ---
 
 ## Blog
+
+Krátká pozorování z IT projektů.
 
 - Největší chyba při definování zadání
 - Je to jen malá změna
