@@ -7,6 +7,19 @@ Začínají v zadání.
 
 ---
 
+## O čem píšu
+
+V projektech se pořád opakují stejné věty:
+
+- „To je jen malá změna.“
+- „Tohle je přece jasné.“
+- „My víme, co zákazník chce.“
+- „Zadání doladíme za běhu.“
+
+Tyhle texty jsou krátká pozorování z praxe.
+
+---
+
 ## Blog
 
 - Největší chyba při definování zadání
