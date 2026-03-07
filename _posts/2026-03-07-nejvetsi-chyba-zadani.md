@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Největší chyba při definování zadání"
+tags: [nejasny-problem, zadani]
 ---
 
 Už jste někdy dodali projekt přesně podle zadání – a zákazník stejně nebyl spokojený?
