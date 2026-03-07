@@ -2,7 +2,7 @@
 
 Pozoruju, jak vznikají problémy v IT projektech.
 
-Obvykle nezačínají v kódu.
+Obvykle nezačínají v kódu.  
 Začínají v zadání.
 
 ---
@@ -12,3 +12,4 @@ Začínají v zadání.
 - Největší chyba při definování zadání
 - Je to jen malá změna
 - Tohle je přece jasné
+- Víc hlav víc ví
